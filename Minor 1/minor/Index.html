@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>COVID-19 Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>COVID-19 Detection</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="upload-section">
+      <div class="container">
+        <h2>Upload Your X-Ray or CT Scan</h2>
+        <form>
+          <label for="patient-name">Patient Name:</label>
+          <input type="text" id="patient-name" name="patient-name">
+
+          <label for="file-upload">Upload File:</label>
+          <input type="file" id="file-upload" name="file-upload">
+
+          <button type="submit">Check for COVID-19</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="results-section">
+      <div class="container">
+        <h2>Results</h2>
+        <p>Your results will be displayed here.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 COVID-19 Detection</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
